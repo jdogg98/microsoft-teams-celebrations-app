@@ -1,14 +1,14 @@
 {
   "$schema": "https://statics.teams.microsoft.com/sdk/v1.3.0-beta.2/manifest/MicrosoftTeams.schema.json",
   "manifestVersion": "1.3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "5c0b8ee0-d445-409b-9c19-ab9edc07a314",
   "packageName": "com.microsoft.teams.celebrations",
   "developer": {
-    "name": "<company name>",
-    "websiteUrl": "<website url>",
-    "privacyUrl": "<privacy url>",
-    "termsOfUseUrl": "<terms of use url>"
+    "name": "Microsoft",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.microsoft.com",
+    "termsOfUseUrl": "https://www.microsoft.com"
   },
   "name": {
     "short": "Celebrations"
@@ -24,7 +24,7 @@
   "accentColor": "#64A2CC",
   "staticTabs": [
     {
-      "contentUrl": "https://<appDomain>/Tabs/Events?userObjectId={userObjectId}&theme={theme}&locale={locale}",
+      "contentUrl": "https://celebrations-digmv4os2o27m.azurewebsites.net/Tabs/Events?userObjectId={userObjectId}&theme={theme}&locale={locale}",
       "entityId": "EventsTab",
       "name": "Events",
       "scopes": [
@@ -34,7 +34,7 @@
   ],
   "bots": [
     {
-      "botId": "<botId>",
+      "botId": "e811516b-e53e-40ce-bcea-e0a8017c1d32",
       "isNotificationOnly": false,
       "scopes": [ "team", "personal" ]
     }
@@ -44,6 +44,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<appDomain>"
+    "celebrations-digmv4os2o27m.azurewebsites.net"
   ]
 }
